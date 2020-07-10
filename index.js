@@ -5,4 +5,4 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => console.log('started'))
+app.listen(PORT, () => console.log(`Port started at PORT ${PORT}`))
